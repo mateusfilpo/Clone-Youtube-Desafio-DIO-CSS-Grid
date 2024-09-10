@@ -1,0 +1,121 @@
+@import url('reset.css');
+
+body {
+    background: #F9F9F9;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 10px 24px 10px 24px;
+    width: 100vw;
+}
+
+#menu .logo-options {
+    display: flex;
+    width: 146px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+#menu .menu-pesquisa input {
+    width: 348px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+}
+
+#menu .menu-pesquisa .pesquisar {
+    width: 57px;
+    height: 40px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+}
+
+#menu .profile-options {
+    width: 130px;
+    height: 34px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    background: #F9F9F9;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.content .menu-lateral {
+    background: white;
+    width: 218px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    padding-left: 25px;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+.content .menu-lateral .botao-lateral {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.content .menu-lateral .botao-lateral p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.content .menu-lateral .botao-lateral .p-inicio {
+    font-weight: bold;
+}
+
+.lista-videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    padding-left: 20px;
+}
+
+.container-video {
+    width: 282px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.info-video {
+    margin-top: 15px;
+    display: flex;
+}
+
+.titulo-desc-video {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-video {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.desc-video {
+    font-size: 14px;
+    color: #515151;
+}
